@@ -107,10 +107,8 @@ export function Header() {
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:block"></div>
-            <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
+            <Button href="#features" color="blue">
+              Get Started Today
             </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
